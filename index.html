@@ -1,0 +1,138 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div class="wrapper flex">
+    
+  <!--   HEADER -->
+  <header class="header">
+    <div class="container">
+      <div class="header-block">
+        <nav class="nav nav-block flex">
+          <ul class="nav__list flex">
+            <li class="nav__item">
+              <a href="" class="nav__link">Gmail</a>
+            </li>
+            <li class="nav__item">
+              <a href="" class="nav__link">Images</a>
+            </li>
+          </ul>
+          <a href="" class="btn-products flex">
+            <span>
+              <svg class="svg-points" focusable="false" viewBox="0 0 24 24">
+                <path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path>
+              </svg>
+            </span>
+          </a>
+          <a class="btn-sign">Sign in</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!--  MAIN -->
+  <main class="main flex">
+    <div class="google">
+      <span class="sp G">G</span>
+      <span class="sp O-1">o</span>
+      <span class="sp O-2">o</span>
+      <span class="sp G-2">g</span>
+      <span class="sp L">l</span>
+      <span class="sp E">e</span>
+    </div>
+    <form action="/search" method="GET" role="search">
+      <div class="search-block flex">
+        <div class="search__logo">
+          <span>
+            <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+            </svg>
+          </span>
+        </div>
+        <div class="search__input flex">
+          <input class="search-text" type="text">
+        </div>
+        <div class="keyboard">
+          <span>
+            <img class="keyboard-img" src="https://google.com/tia/tia.png" tia_disable_swap="true" tia_field_name="q" jsname="JyIpdf" data-atf="0" tia_property="web">
+          </span>
+        </div>
+        <div class="search__microvoice">
+          <span>
+            <svg class="HPVvwb" focusable="false" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path fill="#4285f4" d="m12 15c1.66 0 3-1.31 3-2.97v-7.02c0-1.66-1.34-3.01-3-3.01s-3 1.34-3 3.01v7.02c0 1.66 1.34 2.97 3 2.97z"></path>
+              <path fill="#34a853" d="m11 18.08h2v3.92h-2z"></path>
+              <path fill="#fbbc05" d="m7.05 16.87c-1.27-1.33-2.05-2.83-2.05-4.87h2c0 1.45 0.56 2.42 1.47 3.38v0.32l-1.15 1.18z"></path>
+              <path fill="#ea4335" d="m12 16.93a4.97 5.25 0 0 1 -3.54 -1.55l-1.41 1.49c1.26 1.34 3.02 2.13 4.95 2.13 3.87 0 6.99-2.92 6.99-7h-1.99c0 2.92-2.24 4.93-5 4.93z"></path>
+            </svg>
+          </span>
+        </div>
+      </div>
+      <div class="search-buttons flex">
+        <button class="btns search-btn" type="submit">Google search</button>
+        <button class="btns search-lucky" type="submit">I'm feeling lucky</button>
+      </div>
+      <div class="language-choose flex">
+        <p class="language-text">Google offered in:</p>
+        <p class="language-text select">
+          <select class="language" size="0" name="language">
+            <option disabled>language</option>
+            <option value="t1" selected>English</option>
+            <option value="t2">Russian</option>
+            <option value="t3">Elvish</option>
+          </select>
+        </p>
+      </div>
+    </form>
+  </main>
+  <!--   FOOTER -->
+  <footer class="footer">
+    <div class="country">
+      <p>Disney Land</p>
+    </div>
+    <hr>
+    <div class="footer-links flex">
+      <div class="footer-link-list about-bisiness">
+        <ul class="nav__list nav-footer flex">
+          <li class="nav__item footer-item">
+            <a class="nav__link footer-link " href="">About</a>
+          </li>
+          <li class="nav__item footer-item">
+            <a class="nav__link footer-link " href="">Advertising</a>
+          </li>
+          <li class="nav__item footer-item">
+            <a class="nav__link footer-link " href="">Business</a>
+          </li>
+          <li class="nav__item footer-item">
+            <a class="nav__link footer-link " href="">How search works</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-link-list siting">
+        <ul class="nav__list nav-footer flex">
+          <li class="nav__item footer-item">
+            <a class="nav__link footer-link " href="">Privacy</a>
+          </li>
+          <li class="nav__item footer-item">
+            <a class="nav__link footer-link " href="">Terms</a>
+          </li>
+          <li class="nav__item footer-item">
+            <a class="nav__link footer-link " href="">Sittings</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+      </div>
+</body>
+
+</html>
